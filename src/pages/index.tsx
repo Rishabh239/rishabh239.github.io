@@ -12,7 +12,7 @@ const PERSONAL = {
   location: "Boston, MA",
   email: "tripathirishabh91@gmail.com",
   github: "Rishabh239",
-  linkedin: "rishabh-tripathi",
+  linkedin: "rishabh-tripathi-07a23a198",
   phone: "+1 617-217-8673",
   tagline: "Building production-grade bioinformatics pipelines and ML tools for translational research",
 }
