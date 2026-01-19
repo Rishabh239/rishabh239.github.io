@@ -196,8 +196,8 @@ function Hero() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.6 }}
           style={{
-            width: 180,
-            height: 180,
+            width: 200,
+            height: 200,
             borderRadius: "50%",
             overflow: "hidden",
             margin: "0 auto 32px",
