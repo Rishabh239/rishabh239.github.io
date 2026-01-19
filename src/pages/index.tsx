@@ -329,7 +329,7 @@ function Hero() {
             GitHub
           </a>
           
-          <a href="/Rishabh_Tripathi_Resume_1.pdf"
+          <a href="/Rishabh_Resume_1.pdf"
   target="_blank"
   rel="noopener noreferrer"
   style={{
@@ -357,8 +357,6 @@ function Hero() {
   📄 Resume
 </a>
 ```
-
----
 
 ```
 
