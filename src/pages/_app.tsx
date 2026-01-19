@@ -16,10 +16,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Rishabh Tripathi | Portfolio" />
         <meta property="og:description" content="Building production NGS pipelines and ML tools for translational research." />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://rishabh239.github.io/images/profile.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Rishabh Tripathi | Portfolio" />
+        <meta name="twitter:image" content="https://rishabh239.github.io/images/profile.jpg" />
       </Head>
       <Component {...pageProps} />
     </>
