@@ -360,7 +360,6 @@ function Hero() {
 
 ---
 
-**Result:** You'll have 3 buttons in the hero:
 ```
 [Get in Touch]  [GitHub]  [📄 Resume]
         </motion.div>
