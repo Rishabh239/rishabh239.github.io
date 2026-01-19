@@ -1,4 +1,4 @@
-]# Rishabh Tripathi
+# Rishabh Tripathi
 
 **M.S. Bioinformatics | Northeastern University**
 
