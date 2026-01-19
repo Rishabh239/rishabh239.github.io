@@ -356,9 +356,7 @@ function Hero() {
 >
   📄 Resume
 </a>
-```
 
-```
 
         </motion.div>
       </motion.div>
