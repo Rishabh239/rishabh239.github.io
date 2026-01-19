@@ -39,7 +39,7 @@ const PROJECTS = [
   {
     id: "spatial",
     title: "Spatial Transcriptomics Atlas",
-    subtitle: "Cell-type mapping at 8µm resolution",
+    subtitle: "Cell-type mapping at 16µm resolution",
     description: "End-to-end pipeline integrating Visium HD spatial RNA-seq with scRNA-seq references. Performs cell-type deconvolution, spatial domain detection via Leiden clustering, and generates interactive dashboards.",
     tags: ["Visium HD", "Cell2location", "Scanpy", "Streamlit"],
     image: "/images/spatial-domains.png",
