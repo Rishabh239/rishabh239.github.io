@@ -361,7 +361,7 @@ function Hero() {
 ---
 
 ```
-[Get in Touch]  [GitHub]  [📄 Resume]
+
         </motion.div>
       </motion.div>
 
