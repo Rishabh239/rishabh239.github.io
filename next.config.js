@@ -5,9 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Change this to your repo name if not using custom domain
-  // basePath: '/your-repo-name',
-  // assetPrefix: '/your-repo-name/',
 }
 
 module.exports = nextConfig
