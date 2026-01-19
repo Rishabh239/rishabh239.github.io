@@ -1,78 +1,35 @@
-# Rishabh Tripathi - Portfolio v2
+]# Rishabh Tripathi
 
-A clean, single-page portfolio built with Next.js and deployed on GitHub Pages.
+**M.S. Bioinformatics | Northeastern University**
 
-## 🚀 Quick Update
+🔗 **[rishabh239.github.io](https://rishabh239.github.io)**
 
-Since you already have a repo, just replace the files:
+---
 
-### Option A: Replace Everything (Recommended)
+## About
 
-1. Delete all files in your local `github-portfolio` folder (keep the `.git` folder!)
-2. Copy all files from this folder into `github-portfolio`
-3. Run:
-```powershell
-git add .
-git commit -m "Portfolio v2 - Single page design"
-git push
-```
+Personal portfolio showcasing my work in bioinformatics, computational biology, and machine learning. Built with Next.js and deployed on GitHub Pages.
 
-### Option B: Manual Update
+## Featured Projects
 
-1. Replace these folders/files:
-   - `src/` (entire folder)
-   - `public/` (entire folder)
-   - `package.json`
-   - `next.config.js`
-   - `.github/workflows/deploy.yml`
+| Project | Description | Technologies |
+|---------|-------------|--------------|
+| **Spatial Transcriptomics Atlas** | Cell-type mapping at 8µm resolution using Visium HD | Cell2location, Scanpy, Streamlit |
+| **scRNA-seq Pipeline** | End-to-end single-cell analysis with ML classification | Scanpy, TensorFlow, GSEApy |
+| **Small RNA-seq Pipeline** | Containerized miRNA/isomiR quantification | Docker, AWS Batch, R Shiny |
 
-2. Commit and push
+## Tech Stack
 
-## 📁 Structure
+- **Framework**: Next.js 14, React, TypeScript
+- **Styling**: CSS-in-JS, Framer Motion
+- **Deployment**: GitHub Pages, GitHub Actions
 
-```
-portfolio-v2/
-├── public/
-│   └── images/           # Your project images
-│       ├── profile.jpg
-│       ├── spatial-domains.png
-│       ├── domain-heatmap.png
-│       ├── umap-celltype.png
-│       ├── qc-violins.png
-│       ├── mirge-dashboard.png
-│       ├── isomir-heatmap.png
-│       └── mirna-abundance.png
-├── src/
-│   ├── pages/
-│   │   ├── _app.tsx
-│   │   └── index.tsx     # ← Main single-page portfolio
-│   └── styles/
-│       └── globals.css
-├── package.json
-├── next.config.js
-└── tsconfig.json
-```
+## Contact
 
-## ✏️ Editing Content
+- 📧 tripathirishabh91@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/rishabh-tripathi-07a23a198)
+- 💻 [GitHub](https://github.com/Rishabh239)
 
-All content is in `src/pages/index.tsx`:
+---
 
-- **PERSONAL** - Your info, links, tagline
-- **PILLARS** - The "What I Do" section
-- **PROJECTS** - Featured projects with images
-- **EXPERIENCES** - Work history
-- **SKILLS** - Technical skills by category
-
-## 🖼️ Changing Images
-
-Replace files in `public/images/` with new versions (keep same filenames).
-
-## 🎨 Customization
-
-- **Primary color**: Search for `#6366F1` (indigo) and replace
-- **Background**: Search for `#050505` 
-- **Fonts**: Change in `globals.css` Google Fonts import
-
-## 🌐 Live Site
-
-After pushing, your site will be at: https://rishabh239.github.io
+© 2026 Rishabh Tripathi
