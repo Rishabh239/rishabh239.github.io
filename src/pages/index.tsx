@@ -329,7 +329,7 @@ function Hero() {
             GitHub
           </a>
           
-          <a href="/Rishabh_Resume_1.pdf"
+          <a href="/Rishabh_Resume_3.pdf"
   target="_blank"
   rel="noopener noreferrer"
   style={{
