@@ -206,7 +206,7 @@ function Hero() {
           }}
         >
           <img 
-            src="/images/profile.jpg" 
+            src="/images/profile.png" 
             alt="Rishabh Tripathi"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
