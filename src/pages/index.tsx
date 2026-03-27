@@ -164,7 +164,7 @@ function Hero() {
   const y = useTransform(scrollYProgress, [0, 1], [0, 200])
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
-  return (
+  return (z
     <section
       ref={ref}
       style={{
@@ -801,25 +801,9 @@ function Contact() {
           >
             📧 {PERSONAL.email}
           </a>
-          <a
-            href={`https://linkedin.com/in/${PERSONAL.linkedin}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 10,
-              padding: "16px 24px",
-              borderRadius: 12,
-              background: "rgba(255,255,255,0.05)",
-              border: "1px solid rgba(255,255,255,0.1)",
-              color: "#fff",
-              fontSize: 15,
-              fontWeight: 600,
-            }}
-          >
-            💼 LinkedIn
-          </a>
+          <div dangerouslySetInnerHTML={{
+            __html: `<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="rishabh-tripathi-07a23a198" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/rishabh-tripathi-07a23a198?trk=profile-badge">Rishabh Tripathi</a></div>`
+          }} />
           <a
             href={`https://github.com/${PERSONAL.github}`}
             target="_blank"
@@ -883,3 +867,5 @@ export default function Home() {
     </>
   )
 }
+
+

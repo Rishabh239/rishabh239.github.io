@@ -22,6 +22,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Rishabh Tripathi | Portfolio" />
         <meta name="twitter:image" content="https://rishabh239.github.io/images/profile.png" />
+        
+        {/* LinkedIn Badge Script */}
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
       </Head>
       <Component {...pageProps} />
     </>
